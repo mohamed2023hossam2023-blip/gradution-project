@@ -13,10 +13,10 @@
   }
 
   // ✅ معالجة تسجيل الدخول
-  const form = document.getElementById("loginForm");
+  const form = document.getElementById("loginFormm");
 
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("loginForm");
+  const form = document.getElementById("loginFormm");
   if (!form) return; // يتأكد إن العنصر موجود
   form.addEventListener("submit", async (e) => {
     e.preventDefault(); // يمنع إعادة تحميل الصفحة
@@ -45,8 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("✅ Login successful!");
         console.log("Server Response:", result);
 
+        // لو السيرفر بيرجع Token مثلاً:
         localStorage.setItem("token", result.token);
 
+          // بعد تسجيل الدخول:
           window.location.href = "/home.html";
       } else {
         const error = await response.text();
