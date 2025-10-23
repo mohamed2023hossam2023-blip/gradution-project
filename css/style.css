@@ -1,0 +1,66 @@
+/*Start  Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+/*End Global*/
+/* ===== Navbar Style ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E0E0E1; /* الخلفية */
+  padding: 12px 30px;
+}
+
+/* ===== Logo ===== */
+.logo-m {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-box {
+  background-color: #cce4ff;
+  color: #004aad;
+  padding: 5px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  transform: translateY(-6px); /* raise the icon above the word */
+}
+
+.logo-m h2 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1;
+
+}
+
+.blue {
+  color: #B306FD;
+}
+
+.purple {
+  color: #B306FD;
+}
+
+/* ===== Nav Link ===== */
+.nav-link a {
+   text-decoration: none;
+    background-color:#360BF7;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link a:hover {
+  background-color: #280ab1;
+}

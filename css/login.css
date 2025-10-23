@@ -1,0 +1,165 @@
+/*Start  Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #D77BFF, #8D8A93,#5151FB);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*End Global*/
+
+/*Start Nav*/
+.bg-navcolor {
+  background-color: #E0E0E1;
+}
+
+/* CC Box */
+.icon-box {
+  background-color: #cce4ff;
+  color: #004aad;
+  border-radius: 10px;
+  font-weight: 600;
+  transform: translateY(-6px);
+}
+
+/* Logo colors */
+.blue {
+  color: #1d4ed8;
+}
+
+.purple {
+  color: #a855f7;
+}
+
+/*End Nav*/
+
+/* Start Login Form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+}
+
+.login-box {
+  width: 410px;
+  text-align: center;
+}
+
+.form-logo {
+  display: inline-flex;
+  align-items: flex-end; /* align baseline-ish */
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 90px;
+  margin-top: -10px;
+}
+
+.form-logo .inline-small {
+    font-size: 25px;
+    padding: 5px 7px;
+    margin-bottom: 4px;
+    background-color: #cce4ff;
+    color: #004aad;
+    border-radius: 12px;
+    font-weight: 700;
+    transform: translateY(-6px);
+}
+
+/* Title text size */
+.form-logo h1 {
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+}
+
+.form-logo .blue {
+  color: #1d4ed8;
+}
+
+.form-logo .purple {
+  color: #a855f7;
+}
+
+.login-box h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #171725;
+  padding-top: 15px;
+  text-align: left;
+}
+
+/* Input Fields */
+.inputt-group {
+  margin-bottom: 15px;
+  position: relative;
+  text-align: left;
+}
+
+.inputt-group input {
+  width: 100%;
+  padding: 17px 14px;
+  border: 1.5px solid #E0E2E9;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+.inputt-group input:focus{
+  border: 3px solid #E0E2E9;
+
+}
+.password-group img {
+  width: 20px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0.6;
+}
+.password-group img:hover{
+    opacity: 1;
+}
+/* Button */
+.btnn {
+  width: 100%;
+  padding: 14px;
+  background-color: #360BF7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btnn:hover {
+  opacity: 0.9;
+  background-color: #280ab1;
+  transition: 0.3s;
+}
+
+/* Forgot password */
+.forgott {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+.forgott:hover{
+    text-decoration: underline;
+    color:#ffd5d5;
+}
+/* End Login Form */
+
