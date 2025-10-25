@@ -117,6 +117,15 @@ body {
     letter-spacing: 0.1px;
     line-height: 100%;
 }
+.card-label a{
+  text-decoration: none;
+  color: #000000;
+  transition: 0.1s;
+}
+.card-label a:hover{
+  font-weight: bold;
+  color: #ffd7d7;
+}
 
 /* responsive: single column on small screens */
 @media (max-width: 768px) {
