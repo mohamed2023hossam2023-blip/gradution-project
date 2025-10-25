@@ -114,7 +114,8 @@ table tbody a{
     color: #ffffff;
 }
 table tbody .statu:hover{
-background: #00ff2e;
+    background: #00ff2e;
+    transition: 0.3s;
 }
 /* تحسين المظهر */
 .custom-table {
