@@ -47,6 +47,11 @@ font-weight: 400;
     object-fit: cover;
     border: 1px solid #D9D9D9;
 }
+@media (max-width:767px) {
+    .profile-img {
+        display: none;
+    }
+}
 /*End Navbar*/
 /* Start Header Bar */
 .header{
