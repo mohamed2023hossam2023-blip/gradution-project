@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code crefactos | Purchases Order</title>
+  <link rel="stylesheet" href="css/purchasesorder.css"/>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Start Navbar-->
+<nav class="navbar navbar-expand-lg bg-light px-4 shadow-sm">
+  <div class="container">
+    <!-- Left side -->
+    <div class="d-flex align-items-center">
+      <img src="images/purchaseshome.png" alt="Sales Icon" width="35" class="me-2">
+      <h5 class="fw-bold mb-0 me-4">Purchases</h5>
+      <a href="#" class="nav-link me-3">Orders</a>
+      <a href="#" class="nav-link ">Reporting</a>
+    </div>
+
+    <!-- Right side -->
+    <div class="d-flex align-items-center">
+      <img src="images/profile.webp" alt="Profile" class="profile-img ms-2">
+    </div>
+  </div>
+</nav>
+<!--End Navbar-->
+<!--Start Header Section -->
+<div class="header w-100">
+  <div class="container d-flex flex-wrap align-items-center">
+    <button class="header-n">New</button>
+    <h6>Quotations</h6>
+  </div>
+</div>
+<!-- End Header Section -->
+<!-- Start Second Header -->
+<div class="second-header-bar w-100">
+  <div class="container d-flex justify-content-between align-items-center">
+    <!-- Left Buttons -->
+    <div class="second-header d-flex">
+      <button class="header-s trable">Print</button>
+      <button class="header-s">Confirm</button>
+    </div>
+
+    <!-- Right Buttons -->
+    <div class="header-t d-flex">
+      <a href="salesorder.html" class="quotation-tab-link">
+        <button type="button" class="tab-arrow-left">Quotation</button>
+      </a>
+      <a href="salesorder.html" class="quotation-tab-link">
+        <button type="button" class="tab-arrow-right">Purchases Order</button>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- End Second Header -->
+ <!--Start Table-->
+    <div class="prodacts">
+        <div class="container">
+            <h2 class="d-block headd">New</h2>
+            <div class="d-grid gap-5" style="grid-template-columns: repeat(4, 1fr);">
+                <a href="" class="customer-label">Customer</a>
+                <input class="customer-input" type="text" placeholder="Type to find a customer…" />
+                <a href="" class="expiration-label">Expiration</a>
+                <h5 class="nov-label">nov 15</h5>
+            </div>
+            <!-- Order Lines Section -->
+            <div class="order-section p-4 rounded mt-5">
+            <!-- Title -->
+            <h5 class="order-label">
+                Order Lines
+            </h5>
+            <!-- Border تحت العنوان -->
+            <div class="title-border"></div>
+            <!-- Table -->
+            <div class="table-responsive mt-5">
+                <table class="table tab-main align-middle mb-3 w-100">
+                <thead class="tab-labels">
+                    <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Unit</th>
+                    <th>Unit Price</th>
+                    <th>Disc.%</th>
+                    <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td colspan="6">
+                        <a href="#" class="text-success fw-semibold text-decoration-none">Add a product</a>
+                    </td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            </div>
+
+                <!-- Total -->
+                <div class="d-flex justify-content-end align-items-center total-label">
+                    <span class="me-2 fw-semibold text-white">Total:</span>
+                    <span class="fw-bold text-white"> 0.00 $</span>
+                </div>
+                </div>
+        </div>
+    </div>
+ <!--End Table-->
+</body>
